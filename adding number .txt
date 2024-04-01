@@ -1,0 +1,16 @@
+a = int(input("enter the number" ))
+b = int(input("enter the number"))
+while True:
+    user_input = input("type add sub mul div")
+
+    match user_input:
+        case "add":
+            print(a+b)
+        case "sub":
+            print(a-b)
+        case "mul":
+            print(a*b)
+        case "div":
+            print(a/b)
+
+
